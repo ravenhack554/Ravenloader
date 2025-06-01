@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RAVEN LOADER</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header.intro {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: radial-gradient(circle at center, #222 0%, #111 100%);
+      box-shadow: 0 0 20px #000;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #0ff;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 1.2rem;
+    }
+
+    #projects {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    #projects h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #00ffaa;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      padding: 0 1rem;
+    }
+
+    .project-card {
+      background-color: #1e1e1e;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(0,255,255,0.3);
+    }
+
+    .project-card h3 {
+      font-size: 1.2rem;
+      color: #0ff;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-card p {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #000;
+      background: linear-gradient(135deg, #00ffaa, #00ccff);
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: linear-gradient(135deg, #00ccff, #00ffaa);
+      box-shadow: 0 6px 15px rgba(0, 255, 255, 0.5);
+      transform: translateY(-3px);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #101010;
+      border-top: 1px solid #222;
+    }
+
+    .footer a {
+      color: #0ff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .socials {
+      margin-top: 1rem;
+    }
+
+    .socials a {
+      color: #0ff;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #00ffaa;
+    }
+  </style>
+</head>
+<body>
+  <header class="intro">
+    <h1>RAVEN LOADER</h1>
+    <p>Hızlı ve Güvenilir</p>
+  </header>
+
+  <section id="projects">
+    <h2>Hizmetler</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Logo Yapılır</h3>
+        <p>Kişiye özel profesyonel logo tasarımı.</p>
+        <a href="https://t.me/ravenloader" target="_blank" class="button">
+          <i class="fas fa-shopping-cart"></i> Satın Al
+        </a>
+      </div>
+      <div class="project-card">
+        <h3>Sipariş Oluşturma
+        <p>1K altı ürün geçilir<br> (Sadece 200 TL)</p>
+        <a href="https://t.me/ravenloader" target="_blank" class="button">
+          <i class="fas fa-shopping-cart"></i> Satın Al
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>📧 İletişim: <a href="mailto:ravenloaderrr@gmail.com">ravenloaderrr@gmail.com</a></p>
+    <div class="socials">
+      <a href="https://t.me/ravenloader" target="_blank"><i class="fab fa-telegram fa-lg"></i></a>
+      <a href="mailto:ravenloaderrr@gmail.com"><i class="fas fa-envelope fa-lg"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
